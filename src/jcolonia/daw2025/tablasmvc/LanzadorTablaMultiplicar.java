@@ -1,18 +1,11 @@
 package jcolonia.daw2025.tablasmvc;
+
 /**
-* Lanzador de aplicación de consola de texto con menús. Aplicación
-* de texto usando tablas de multiplicar infantiles clásicas. 
-*/
+ * Punto de entrada del programa.
+ */
 public class LanzadorTablaMultiplicar {
-	/**
-	* Inicia el menú principal del programa.
-	* @param argumentos opciones de ejecución -no se usan-
-	*/
-	public static void main (String[] argumentos){
-		ControlTablaMultiplicar programa;
-		
-		programa = new ControlTablaMultiplicar()
-		
-		programa.bucleprincipal();
-	}
+    public static void main(String[] args) {
+        ControlTablaMultiplicar control = new ControlTablaMultiplicar();
+        control.buclePrincipal();
+    }
 }
